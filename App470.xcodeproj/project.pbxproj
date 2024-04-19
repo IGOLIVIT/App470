@@ -38,6 +38,7 @@
 		789BA8842BCD935000B847E3 /* SManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BA8832BCD935000B847E3 /* SManager.swift */; };
 		789BA8862BCD936600B847E3 /* WManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BA8852BCD936600B847E3 /* WManager.swift */; };
 		789BA88A2BCD97E900B847E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 789BA8892BCD97E900B847E3 /* GoogleService-Info.plist */; };
+		78F70A832BD28D19007B3E81 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F70A822BD28D19007B3E81 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		789BA8832BCD935000B847E3 /* SManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SManager.swift; sourceTree = "<group>"; };
 		789BA8852BCD936600B847E3 /* WManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WManager.swift; sourceTree = "<group>"; };
 		789BA8892BCD97E900B847E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Images/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		78F70A822BD28D19007B3E81 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			files = (
 				789BA87B2BCD919F00B847E3 /* YandexMobileMetrica in Frameworks */,
 				789BA8802BCD922100B847E3 /* FirebaseRemoteConfigSwift in Frameworks */,
+				78F70A832BD28D19007B3E81 /* StoreKit.framework in Frameworks */,
 				789BA8752BCD912900B847E3 /* OneSignalFramework in Frameworks */,
 				789BA8782BCD918A00B847E3 /* ApphudSDK in Frameworks */,
 			);
@@ -93,6 +96,7 @@
 			children = (
 				7816324C2BC86E5600F9AAC3 /* App470 */,
 				7816324B2BC86E5600F9AAC3 /* Products */,
+				78F70A812BD28D19007B3E81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,14 @@
 				7816328B2BCAB1C300F9AAC3 /* ChartView.swift */,
 			);
 			path = Chart;
+			sourceTree = "<group>";
+		};
+		78F70A812BD28D19007B3E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F70A822BD28D19007B3E81 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,12 +506,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App470/App470.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"App470/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App470/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NimbusRise;
+				INFOPLIST_KEY_CFBundleDisplayName = "Forex Trade: app";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -515,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App470;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -534,12 +546,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App470/App470.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"App470/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App470/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NimbusRise;
+				INFOPLIST_KEY_CFBundleDisplayName = "Forex Trade: app";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -555,7 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App470;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

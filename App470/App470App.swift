@@ -8,6 +8,7 @@
 import SwiftUI
 import FirebaseCore
 import ApphudSDK
+import StoreKit
 import OneSignalFramework
 import YandexMobileMetrica
 
